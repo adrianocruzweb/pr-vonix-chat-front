@@ -34,7 +34,7 @@ export default {
 
     if (this.user.name) {
       
-      this.socket = io('https://pr-vonix-chat-server.herokuapp.com/');
+      this.socket = io('https://pr-vonix-chat-server.herokuapp.com:3000');
       
       this.socket.on('connect', () => {
         this.connect();
