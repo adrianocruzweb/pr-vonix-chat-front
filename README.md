@@ -1,5 +1,9 @@
 # pr-vonix-chat-front
 
+💬
+Client Chat
+Esse chat tem um Client Vue.js e Socket.io para recepcionar mensagens e envia-las.
+
 ## Project setup
 ```
 yarn install
